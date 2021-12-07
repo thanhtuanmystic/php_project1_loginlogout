@@ -1,0 +1,64 @@
+@media (min-width: 768px) {
+    .omb_row-sm-offset-3 div:first-child[class*="col-"] {
+        margin-left: 25%;
+    }
+}
+
+.main .title {
+    text-align: center;
+    line-height: 300%;
+}
+
+.main .omb_socialButtons a {
+    color: white; // In yourUse @body-bg
+opacity:0.9;
+}
+.main .omb_socialButtons a:hover {
+    color: white;
+    opacity:1;
+}
+.main .omb_socialButtons .omb_btn-facebook {background: #3b5998;}
+.main .omb_socialButtons .omb_btn-twitter {background: #00aced;}
+.main .omb_socialButtons .omb_btn-google {background: #c32f10;}
+
+
+.main .omb_loginOr {
+    position: relative;
+    font-size: 1.5em;
+    color: #aaa;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.main .omb_loginOr .hrOr {
+    background-color: #cdcdcd;
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.main .omb_loginOr .spanOr {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -0.6em;
+    margin-left: -1.5em;
+    background-color: white;
+    width: 3em;
+    text-align: center;
+}
+
+.main .form-login .input-group.i {
+    width: 2em;
+}
+.main .form-login  .help-block {
+    color: red;
+}
+
+
+@media (min-width: 768px) {
+    .main .forgotPassword {
+        text-align: right;
+        margin-top:10px;
+    }
+}
